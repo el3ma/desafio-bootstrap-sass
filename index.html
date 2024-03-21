@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Portafolio</title>
+
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <!-- BOOTSTRAP 5.3.3 -->
+    <script defer src="./assets/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/img/Logo-ema.svg" alt="" width="30px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mis habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header container d-flex">
+        <div class="row">
+            <div class="header__image col-12 col-md-6 py-5">
+                <img src="./assets/img/undraw_static_website_re_x70h.svg" alt="" width="350px">
+            </div>
+            <div class="header__text col-12 col-md-6 gy-5 py-3">
+                <h1>Emanuel Astudillo</h1>
+                <h2>Desarrollador FronEnd</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus doloremque tempora deserunt ab,
+                    fugit officia corporis nulla rerum autem animi velit consequatur itaque porro voluptatem saepe amet
+                    sit?
+                    Illo, modi.</p>
+                <button class="btn btn-info col-12 col-md-3">Contactame</button>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="skills container g-3 py-5">
+            <h2 class="text-center py-5">Mis habilidades</h2>
+            <div class="skills row justify-content-md-between justify-content-center">
+                <div class="skills__container-type col-6 col-md-auto px-5 px-md-2">
+                    <i class="fa-brands fa-html5"></i>
+                    <span>HTML</span>
+                </div>
+                <div class="skills__container-type col-6 col-md-auto px-5 px-md-2">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <span>CSS</span>
+                </div>
+                <div class="skills__container-type col-6 col-md-auto px-5 px-md-2">
+                    <i class="fa-brands fa-sass"></i>
+                    <span>Sass</span>
+                </div>
+                <div class="skills__container-type col-6 col-md-auto px-5 px-md-2">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <span>Bootstrap</span>
+                </div>
+                <div class="skills__container-type col-6 col-md-auto px-5 px-md-2">
+                    <i class="fa-brands fa-git-alt"></i>
+                    <span>Git</span>
+                </div>
+                <div class="skills__container-type col-6 col-md-auto px-5 px-md-2">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+                <div class="skills__container-type col-6 col-md-auto px-5 px-md-2">
+                    <i class="fa-brands fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skills__container-type col-6 col-md-auto px-5 px-md-2">
+                    <i class="fa-brands fa-vuejs"></i>
+                    <span>Vue</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-5">
+            <h2 class="text-center py-5">Mis proyectos</h2>
+            <div class="row g-4">
+                <div class="col col-md-6">
+                    <img src="./assets/img/meetcoffee.png" alt="" width="350px">
+                    <h3>Nombre Proyecto</h3>
+                </div>
+                <div class="col col-md-6">
+                    <img src="./assets/img/meetcoffee.png" alt="" width="350px">
+                    <h3>Nombre Proyecto</h3>
+                </div>
+                <div class="col col-md-6">
+                    <img src="./assets/img/meetcoffee.png" alt="" width="350px">
+                    <h3>Nombre Proyecto</h3>
+                </div>
+                <div class="col col-md-6">
+                    <img src="./assets/img/meetcoffee.png" alt="" width="350px">
+                    <h3>Nombre Proyecto</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-3">
+            <h2 class="text-center py-5">Contactame</h2>
+                <div class="row g-3">
+                    <div class="col-12 col-md-6">
+                        <div class="">
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                        </div>
+                        <div class="py-3">
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Tu Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"
+                                placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <div>
+                            <button class="btn btn-warning col-12">Enviar</button>
+                        </div>
+                    </div>
+                
+            
+
+            <div class="text-center col-md-6">
+                <ul class="py-5">
+                    <li class="py-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+56123456789</span>
+                    </li>
+                    <li class="py-2">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Mail</span>
+                    </li>
+                    <li class="py-2">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>Linkedin</span>
+                    </li>
+                    <li class="py-2">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </li>
+                    <li class="py-2">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span>Instagram</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
