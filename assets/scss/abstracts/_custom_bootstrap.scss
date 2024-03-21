@@ -1,0 +1,9 @@
+$custom-colors: (
+  "custom-dark": #24282B,
+  "custom-white": #F8EFFF,
+  "custom-purple": #9D4EE3,
+  "custom-blue": #5887DA
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);

@@ -3,14 +3,19 @@
 @import "../vendors/bootstrap/scss/variables-dark";
 
 //abtracts
-/* @import 'abstracts/variables',
-'abstracts/custom_bootstrap'; */
+ @import 'abstracts/variables',
+'abstracts/custom_bootstrap';
 //vendors
 @import'vendors/font-awesome';
 @import '../vendors/bootstrap/scss/bootstrap.scss';
 //base
+@import 'base/base',
+'base/reset',
+'base/typography';
 //layout
-/* @import 'layout/menus'; */
+@import 'layout/header',
+'layout/navbar';
+// @import 'layout/menus'; 
 //component
 /* @import 'components/table-crud'; */
 //pages

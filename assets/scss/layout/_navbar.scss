@@ -1,0 +1,16 @@
+.navbar{
+    background-color: $dark;
+    
+    & a{
+        color: $white;
+
+        &:hover{
+            color: $purple;
+        }
+    }
+
+    &-toggle{
+        border: none;
+    }
+}
+
