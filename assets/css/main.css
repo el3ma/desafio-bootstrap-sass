@@ -12227,6 +12227,11 @@ body {
   color: #F8EFFF;
 }
 
+.btn a {
+  text-decoration: none;
+  color: #F8EFFF;
+}
+
 * {
   margin: 0;
   padding: 0;
