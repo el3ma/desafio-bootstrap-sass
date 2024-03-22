@@ -1,3 +1,12 @@
-header{
-    background-color: $dark;
+.header__image{
+    width: 350px;
+}
+
+
+@media (max-width: 768px) {
+    
+   .header__image{
+        width: 250px;
+   }
+
 }

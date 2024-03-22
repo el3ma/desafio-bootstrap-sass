@@ -12238,10 +12238,15 @@ h1, .h1 {
   font-size: 70px;
 }
 
-header {
-  background-color: #24282B;
+.header__image {
+  width: 350px;
 }
 
+@media (max-width: 768px) {
+  .header__image {
+    width: 250px;
+  }
+}
 .navbar {
   background-color: #24282B;
 }
@@ -12255,4 +12260,78 @@ header {
   border: none;
 }
 
+.fa-brands {
+  font-size: 2rem;
+}
+.fa-html5 {
+  color: #e34c26;
+}
+.fa-css3-alt {
+  color: #264de4;
+}
+.fa-sass {
+  color: #cc6699;
+}
+.fa-bootstrap {
+  color: #59287a;
+}
+.fa-git-alt {
+  color: #f34f29;
+}
+.fa-js {
+  color: #f0db4f;
+}
+.fa-vuejs {
+  color: #42b883;
+}
+
+span {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .skills__container {
+    padding-left: 20px;
+  }
+  .fa-brands {
+    font-size: 25px;
+  }
+  span {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .skills__container {
+    padding-left: 80px;
+  }
+  .fa-brands {
+    font-size: 35px;
+  }
+  span {
+    font-size: 1.5rem;
+  }
+}
+.container-cards__image {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container-cards__image {
+    min-width: 360px;
+    max-width: 700px;
+  }
+}
+.contact__container {
+  list-style-type: none;
+}
+.contact__icons {
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .contact__icons {
+    font-size: 1.5rem;
+  }
+}
 /* @import 'components/table-crud'; *//*# sourceMappingURL=main.css.map */

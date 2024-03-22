@@ -1,0 +1,71 @@
+.fa{
+    
+    &-brands{
+    font-size: 2rem;
+    }
+
+    &-html5{
+        color: $html;
+    }
+
+    &-css3-alt{
+        color: $css;
+    }
+
+    &-sass{
+        color: $sass;
+    }
+
+    &-bootstrap{
+        color: $bs;
+    }
+
+    &-git-alt{
+        color: $git;
+    }
+
+    &-js{
+        color: $js;
+    }
+
+    &-vuejs{
+        color: $vue;
+    }
+
+}
+
+
+span{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+@media (max-width: 768px){
+
+    .skills__container{
+        padding-left: 20px;
+    }
+
+    .fa-brands{
+        font-size: 25px;
+    }
+
+    span{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 992px){
+
+    .skills__container{
+        padding-left: 80px;
+    }
+
+    .fa-brands{
+        font-size: 35px;
+    }
+
+    span{
+        font-size: 1.5rem;
+    }
+}

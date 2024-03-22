@@ -1,0 +1,22 @@
+.contact{
+    
+    &__container{
+        list-style-type: none;
+    }
+
+   &__icons{
+    font-size: 2rem;
+   }
+}
+
+
+@media (max-width: 768px){
+
+    .contact{
+
+        &__icons{
+            font-size: 1.5rem;
+        }
+    }
+}
+
